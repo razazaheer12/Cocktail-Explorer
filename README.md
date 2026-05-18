@@ -2,12 +2,11 @@
 
 A Premium **Express + Axios + EJS** modern web application, that using the free **TheCocktailDB API** to search and display cocktail recipes. Users can view detailed drink information including images, ingredients, and instructions.
 
-<img width="941" height="394" alt="image" src="https://github.com/user-attachments/assets/e3e4f307-e3b3-4c13-8097-eae27f23554f" />
-
-
 Live demo: https://cocktail-explorer-psi.vercel.app/
 
 GitHub: https://github.com/razazaheer12/Cocktail-Explorer
+
+<img width="941" height="394" alt="image" src="https://github.com/user-attachments/assets/e3e4f307-e3b3-4c13-8097-eae27f23554f" />
 
 ---
 
@@ -131,6 +130,8 @@ From `package.json`:
 ---
 
 ## 📄 License
+
+This project is for educational and personal use. TheCocktailDB API is free for non-commercial use.
 
 ---
 
