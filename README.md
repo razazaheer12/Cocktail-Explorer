@@ -1,6 +1,15 @@
 # Cocktail Explorer 🍸
 
+
 A Premium **Express + Axios + EJS** modern web application, that using the free **TheCocktailDB API** to search and display cocktail recipes. Users can view detailed drink information including images, ingredients, and instructions.
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" />
+  <img src="https://img.shields.io/badge/EJS-B4CA65?style=for-the-badge&logo=ejs&logoColor=white" alt="EJS" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/License-ISC-blue?style=for-the-badge" alt="License" />
+</p>
 
 Live demo: https://cocktail-explorer-psi.vercel.app/
 
