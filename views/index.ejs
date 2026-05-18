@@ -1,0 +1,78 @@
+<%- include("partials/header") %>
+
+<div class="page-shell">
+  <header class="hero">
+    <div class="badge">🍸 Premium API Capstone Project</div>
+    <h1>Cocktail Explorer</h1>
+    <p>
+      Search for any cocktail recipe or discover a random drink with ingredients,
+      image, and step-by-step instructions.
+    </p>
+
+    <form action="/search" method="POST" class="search-form">
+      <input
+        type="text"
+        name="cocktailName"
+        placeholder="Search cocktails... e.g. Margarita"
+        value="<%= searchTerm %>"
+        required
+      />
+      <button type="submit" class="btn btn-primary">Search</button>
+      <a href="/random" class="btn btn-secondary">🎲 Random</a>
+    </form>
+  </header>
+
+  <% if (error) { %>
+    <div class="alert"><%= error %></div>
+  <% } %>
+
+  <% if (cocktail) { %>
+    <section class="cocktail-card">
+      <div class="image-panel">
+        <img
+          src="<%= cocktail.strDrinkThumb %>"
+          alt="<%= cocktail.strDrink %>"
+        />
+      </div>
+
+      <div class="content-panel">
+        <div class="meta-row">
+          <% if (cocktail.strAlcoholic) { %>
+            <span class="pill"><%= cocktail.strAlcoholic %></span>
+          <% } %>
+
+          <% if (cocktail.strCategory) { %>
+            <span class="pill"><%= cocktail.strCategory %></span>
+          <% } %>
+        </div>
+
+        <h2><%= cocktail.strDrink %></h2>
+
+        <div class="section">
+          <h3>🧪 Ingredients</h3>
+          <ul class="ingredients-list">
+            <% ingredients.forEach(item => { %>
+              <li>
+                <span><%= item.ingredient %></span>
+                <% if (item.measure) { %>
+                  <strong><%= item.measure %></strong>
+                <% } %>
+              </li>
+            <% }) %>
+          </ul>
+        </div>
+
+        <div class="section">
+          <h3>📖 Instructions</h3>
+          <p class="instructions"><%= cocktail.strInstructions %></p>
+        </div>
+      </div>
+    </section>
+  <% } %>
+
+  <footer class="site-footer">
+    Built with Node.js, Express, Axios, and TheCocktailDB API.
+  </footer>
+</div>
+
+<%- include("partials/footer") %>

@@ -1,0 +1,19 @@
+{
+  "name": "cocktail-explorer",
+  "version": "1.0.0",
+  "description": "Premium Cocktail Explorer using Express, Axios, and EJS",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
