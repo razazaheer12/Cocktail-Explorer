@@ -1,6 +1,9 @@
 # Cocktail Explorer 🍸
 
-A premium **Express + Axios + EJS** web app that lets you **search cocktails by name** and discover a **random drink** using the free **TheCocktailDB API**.
+A Premium **Express + Axios + EJS** modern web application, that using the free **TheCocktailDB API** to search and display cocktail recipes. Users can view detailed drink information including images, ingredients, and instructions.
+
+<img width="941" height="394" alt="image" src="https://github.com/user-attachments/assets/e3e4f307-e3b3-4c13-8097-eae27f23554f" />
+
 
 Live demo: https://cocktail-explorer-psi.vercel.app/
 
@@ -129,5 +132,25 @@ From `package.json`:
 
 ## 📄 License
 
-ISC
+---
+
+## 👨‍💻 Developer
+
+<p>
+  Made with ❤️ by <strong>Raza Zaheer</strong>
+</p>
+
+<p>
+  <a href="https://github.com/razazaheer12">
+    <img src="https://img.shields.io/badge/GitHub-razazaheer12-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+</p>
+
+---
+
+<p align="center">
+  ⭐ If you found this project useful, please star it!
+</p>
+
+
 
